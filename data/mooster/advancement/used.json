@@ -1,0 +1,1 @@
+{"criteria":{"requirement":{"trigger":"using_item","conditions":{"item":{"predicates":{"custom_data":"{mooster:1}"}}}}},"rewards":{"function":"mooster:src/reward"}}
