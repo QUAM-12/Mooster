@@ -1,1 +1,1 @@
-execute as @a[predicate=mooster:swap_mooster] run function mooster:player
+execute as @a[predicate=mooster:swap] run function mooster:player
