@@ -15,7 +15,7 @@ execute at @s run function mooster:src/explosion
 #down pos
 execute at @s run tp ~ ~-1000 ~
 #remove sound
-execute at @s run stopsound @s * entity.generic.explode
+stopsound @s * entity.generic.explode
 #@After Gamemode
 execute if score #GameType Mooster matches 0 run gamemode survival
 execute if score #GameType Mooster matches 1 run gamemode creative
